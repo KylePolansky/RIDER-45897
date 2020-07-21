@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <RootNamespace>RIDER_45897</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <!-- Support for EditorConfig Errors -->
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.CodeStyle" Version="3.6.0-4.20269.4">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+</Project>

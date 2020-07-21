@@ -1,0 +1,8 @@
+root = true
+
+[*.cs]
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = error
+
+# New line preferences
+csharp_new_line_before_open_brace = accessors, anonymous_methods, control_blocks, events, indexers, local_functions, methods, properties, types
